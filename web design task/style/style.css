@@ -1,0 +1,166 @@
+*
+.container{
+margin:auto;
+width:100%
+}
+.header {
+	background-image:url("background.jpg");
+	height:98vh;
+	width:100%;
+	background-size:cover;
+	margin-top:0px;
+	margin-right:opx;
+	border:1px solid black;
+}
+.logo {
+	width:100%;
+	height:15vh;
+}
+.heading h2 {
+	font-size:30px;
+	margin-left:50px;
+	color:white;
+}
+.topnav ul {
+	list-style:none;
+	display:flex;
+	margin-left:550px;
+}
+.topnav li a {
+	text-decoration:none;
+	color:white;
+}
+.topnav li {
+		margin-top:-40px;
+		margin-left:30px;
+}
+.home
+{
+	height:250px;
+	width:100%;
+	color:white;
+	margin-top:160px;
+	text-align:center;
+	font-size:45px;
+	font-family: 'Poppins', sans-serif;
+}
+.home p{
+	font-size:40px;
+	margin-top:-30px;
+}	
+.about {
+	height:800px;
+	width:100%;
+	border:1px solid black;
+	background-color:F5F5F5;
+}
+.aboutme{
+	width:80%;
+	height:700px;
+	margin-left:120px;
+	margin-top:50px;
+	display:flex;
+	border:1px solid black;
+	
+}
+.aboutmea{
+	width:48%;
+	height:600px;
+	margin-top:50;
+	margin-left:20px;
+	border:1px solid orange;
+}
+.profile{
+	height:250px;
+	margin-left:15px;
+	width:95%;
+	display:flex;
+	border:1px solid black;
+}
+.photo {
+	height:200px;
+	width:45%;
+	margin-top:30px;
+	margin-left:10px;
+}
+.photo img{
+	margin-top:10px;
+	margin-left:20px;
+	border-radius:10px;
+}
+.address {
+	height:200px;
+	width:45%;
+	margin-top:30px;
+	margin-left:20px;
+}
+.skils{
+	height:300px;
+	width:90%;
+	margin-top:20px;
+	margin-left:20px;
+	background-color:yellow;
+}
+.aboutmeb{
+	width:48%;
+	height:600px;
+	margin-top:50px;
+	border:1px solid orange;
+}
+.aboutmeb h3{
+	font-size:30px;
+	margin-top:35px;
+}
+.aboutmeb hr{
+	width:20%;
+	height:2px;
+	margin-left:1px;
+	margin-top:-20px;
+	background-color:blue;
+}
+.aboutmeb p{
+		font-size:25px;
+		margin-left:10px;
+}
+.service{
+	height:1000px;
+	width:100%;
+	background-color:F5F5F5;
+	border:1px solid black;
+}
+.services{
+}
+.web{
+	width:90%;
+	height:400px;
+	margin-top:30px;
+	margin-left:70px;
+	display:flex;
+	background-color:yellow;
+	border:1px solid black;
+}
+.webdesign{
+	height:300px;
+	width:30%;
+	margin-top:20px;
+	margin-left:25px;
+	border-radius:10px;
+	border:1px solid black;
+}
+.webdevelopment{
+	height:300px;
+	width:30%;
+	margin-top:20px;
+	margin-left:25px;
+	border-radius:10px;
+	border:1px solid black;
+}
+.photography{
+	height:300px;
+	width:30%;
+	margin-top:20px;
+	margin-left:25px;
+	border-radius:10px;
+	border:1px solid black;
+}
+	
