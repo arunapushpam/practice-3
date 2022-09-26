@@ -1,0 +1,40 @@
+*
+{ 
+margin:10px;
+width:;
+}
+object
+{
+	width:500px; height:500px;
+}
+.a3
+{
+
+width:300px;
+height:100px;
+}
+
+ table, thead, tr, th, td{
+		border:1px solid black;
+	}
+	ul{
+	list-style:square;
+	}
+	.n1 h3{
+		font-size:20px;
+		color:blue;
+	}
+	.n1 p{
+	font-size:15px;
+	color:red;
+	}
+	.f{
+		font-size:25px;
+	}
+	.c p{
+		text-align:center;
+	}
+	.p1 p{
+		font-size:30px;
+	}
+	
