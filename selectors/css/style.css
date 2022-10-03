@@ -1,0 +1,84 @@
+*{
+	margin:5px;
+	padding:0;
+	box-sizing:border-box;
+}
+#s1{
+	font-size:20px;
+	color:green;
+	background-color:yellow;
+}
+.si{
+	font-size:20px;
+	color:orange;
+	background-color:brown;
+}
+.ds p {
+	color:red;
+	background-color:yellow;
+	font-size:20px;
+}
+.cs>p{
+	background-color:red;
+	color:blue;
+}
+.cs +p{
+	color:green;
+	background-color:orange;
+}
+a:visited{
+	color:green;
+}
+.gen~h4{
+	color:yellow;
+	background-color:orange;
+}
+
+a:active{
+	background-color:violet;
+}
+.a1{
+	
+	color:yellow;
+	cursor:pointer;
+}
+.a1:hover{
+	color:violet;
+}
+.p1::first-line{
+	color:brown;
+}
+.e1::first-letter{
+	color:orange;
+	font-size:20px;
+}
+h5::before{
+	content:"13.05.2000";
+}
+h6::after{
+	content:"13.05.2000";
+}
+.att a[target]{
+	background-color:green;
+}
+.ats a[target="_blank"]{
+	background-color:orange;
+}
+[class~=table]{
+	border:1px solid red;
+}
+[class|=top]{
+	background-color:brown;
+}
+[class^=start]{
+	background-color:yellow;
+}
+[class$=chart]{
+	background-color:green;
+}
+[class*="m"]{
+	background-color:gray;
+}
+.gen ~p{
+	color:red;
+}
