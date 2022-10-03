@@ -1,0 +1,129 @@
+*
+{
+
+margin:0;
+padding:0;
+box-sizing:border-box;	
+}
+
+.container{
+margin:auto;
+width:100%;
+height:auto;
+
+}
+.pricing{
+	height:100vh;
+	width:100%;
+	background-color:#f0f8ff;
+}
+.pricinga{
+	width:80%;
+	padding:30px;
+	margin:auto;
+	text-align:center;
+
+}
+.pricinga h1{
+	font-size:30px;
+}
+.pricinga h1::after{
+	content:"";
+	height:3px;
+	width:5%;
+	background-color:gray;
+	display:block;
+	margin:auto;
+	margin-top:20px;
+	
+	
+}
+.pricinga p{
+	margin-top:30px;
+	font-size:19px;
+	color:#aaaaaa;
+}
+.business{
+		width:80%;
+		display:flex;
+		justify-content:space-between;
+		margin:auto;
+		
+}
+.free{
+	width:32%;
+	height:65vh;
+	text-align:center;
+	border-radius:15px;
+	box-shadow:0 0 12px #8888884a;
+	background-color:white;
+}
+.free h3{
+	text-align:center;
+	margin-top:20px;
+}
+.free h2{
+	color:gray;
+	margin-top:20px;
+}
+.free span{
+	color:blue
+}
+.free ul{
+	list-style:none;
+}
+.free ul li {
+	margin-top:20px;
+}
+.buy{
+	margin-top:50px;
+}
+.buy a{
+	text-decoration:none;
+	border:1px solid black;
+	background-color:#f0f8ff;
+	border:none;
+	border-radius:5px;
+	padding-top:15px;
+	padding-right:15px;
+	padding-bottom:15px;
+	padding-left:15px;
+	
+}
+.frees{
+	width:32%;
+	text-align:center;
+	color:white;
+	border-radius:15px;
+	box-shadow:0 0 12px #8888884a;
+	background-color:#23395d ;
+}
+.frees h3{
+	text-align:center;
+	margin-top:20px;
+}
+.frees h2{
+	color:gray;
+	margin-top:20px;
+}
+.frees span{
+	color:white;
+}
+.frees ul{
+	list-style:none;
+}
+.frees ul li {
+	margin-top:20px;
+}
+.buys{
+	margin-top:50px;
+}
+.buys a{
+	height:20px;
+	width:20%;
+	text-decoration:none;
+	border:1px solid black;
+	background-color:gray;
+	border:none;
+	padding:10px;
+}
