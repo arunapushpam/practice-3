@@ -385,8 +385,6 @@ body{
 .ourspecialsb h2{
 	color:white;
 	font-size:25px;
-	background-color:yellow;
-	margin-top:0px;
 }
 .ourspecialsb p{
 	font-size:20px;
@@ -467,44 +465,60 @@ body{
 	font-size:20px;
 }
 .reservation{
-	height:130vh;
 	width:100%;
+	padding-bottom:30px;
 	padding-top:10px;
 	background-color:#0C0B09;
 }
 .form{
-	height:75vh;
-	width:90%;
-	display:flex;
-	border:1px solid black;
-	background-color:yellow;
-	margin:auto;
-	margin-top:40px;
-}
-.form input{
-	height:7vh;
-	width:30%;
-	margin-top:20px;
-}
-.form textarea{
-	height:25vh;
 	width:100%;
+	display:flex;
+	flex-wrap:wrap;
+	justify-content:space-between;
 	margin-top:20px;
 }
-.form a{
-	height:20vh;
-	width:20%;
-	border:1px solid ;
-	border-radius:50px;
-	padding:20px;
-	font-size:20px;
+.form1{
+	width:30%;
+	padding-top:20px;
+	margin-left:px;
+}
+.form1 input{
+	width:100%;
+	padding:10px;
+	box-shadow: none;
+	background-color:#0c0b09;
+	border-color:grey;
+    color: white;
+	font-size:18px;
+}
+
+.area{
+	width:100%;
+	margin-top:30px;
+}
+.area textarea{
+	width:100%;
+	background:#0c0b09;
+	box-shadow:none;
+	border-color:grey;
+    color: white;
+	font-size:18px;
+}
+.forms2{
+	margin:auto;
+	margin-top:70px;
+}
+.forms2 a{
+	border-radius:30px;
+	padding:15px 25px;
 	text-decoration:none;
 	color:white;
+	background-color:#cda45e;
 }
 .saying{
 	width:100%;
-	height:75vh;
 	padding-top:5px;
+	padding-bottom:100px;
 	background-color:1A1814;
 }
 .say{
@@ -538,7 +552,8 @@ body{
 }
 .gallery{
 	width:100%;
-	border:1px solid yellow;
+	padding:5px;
+	background-color:#0C0B09;
 }
 .photos{
 	width:100%;
@@ -547,20 +562,91 @@ body{
 	margin-top:30px;
 	border:1px solid black;
 }
-.photo img{
+.photo{
 	width:25%;
-	border:1px solid black;
+	cursor:pointer;
+}
+.photo img{
+	width:100%;
+	border:3px solid #454035;
 }
 .chief{
 	width:100%;
+	padding:5px;
+	background-color:#0C0B09;
 }
 .chiefs{
 	width:100%;
 	border:1px solid black;
 	display:flex;
+	margin-top:30px;
+	justify-content:space-between
+}
+.chiefs1{
+	width:32%
 }
 .chiefs1 img{
-	width:30%;
+	width:100%;
 	border:1px solid black;
-	background-color:yellow;
+}
+.contact{
+	width:100%;
+	margin-top:0px;
+	border:1px solid black;
+	background-color:#0C0B09;
+}
+.map{
+	width:100%;
+	border:1px solid black;
+}
+.map iframe{
+	height:450px;
+	width:100%;
+	margin-top:30px;
+}
+.address{
+	width:100%;
+	background-color:#0C0B09;
+}
+.location{
+	width:100%;
+	display:flex;
+	justify-content:space-between;
+	border:1px solid black;
+}
+.location1{
+	width:40%;
+	border:1px solid blue;
+}
+.open{
+	width:100%;
+	display:flex;
+	justify-content:space-between;
+	margin-top:30px;
+}
+.opens{
+	width:10%;
+}
+.opens iconify-icon{
+
+	font-size:25px;
+	padding:10px;
+	background-color:#cda45e;
+    border:1px solid #cda45e;
+	border-radius:50%;
+	color:white;
+}
+.opens1{
+	width:88%;
+}
+.opens1 h3{
+	color:white;
+}
+.opens1 p{
+	color:#bab3a6;
+}
+.subject{
+	width:59%;
+	height:50vh;
+	border:1px solid blue;
 }
