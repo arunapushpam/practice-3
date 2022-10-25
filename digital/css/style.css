@@ -1,0 +1,321 @@
+.top button{
+	background-color:#eb5d1e;
+	color:white;
+	border-radius:2rem;
+	border:none;
+}
+/* nav finished */
+.page1{
+	background-color:#FEF8F5;
+	padding-bottom:5rem;
+}
+.page1 h1{
+	margin-top:7rem;
+	color:#4e4039;
+	font-weight:700;
+	font-size:3rem;
+}
+.page1 p{
+	font-size:1.5rem;
+	color:#a08f86;
+}
+.page1 img{
+	margin-top:3rem;
+}
+.button button{
+	background-color:#eb5d1e;
+	border:none;
+	padding:.5rem;
+}
+/* page 1 finished */
+.page2{
+	padding-top:2rem;
+	padding-bottom:5rem; 
+}
+.page2 img{
+	margin-top:2rem;
+	width:100%;
+}
+.page2 h1{
+	margin-top:2rem;
+}
+.page2 p{
+	color:#5a6570;
+}
+.page2 iconify-icon{
+	color:#f39e7a;
+	font-size:3rem;
+}
+.page2 h5{
+	color:#7a6960;
+}
+/* 2 page finished */
+.page3 {
+	background-color:#FEF8F5;
+	text-align:center;
+	padding-bottom:5rem;
+	padding-top:2rem;
+}
+.service h2{
+	padding-top:2rem;
+	color:#c2b7b1;
+	text-align:center;
+}
+.service h1{
+	font-size:2rem;
+	color:#212529;
+	font-weight:700;
+	text-align:center;
+}
+.service h1::after{
+	content:"";
+	width:20%;
+	height:.5vh;
+	margin:auto;
+	margin-top:1rem;
+	background-color:#eb5d1e;
+	display:block;
+}
+.ser{
+	/* padding:2rem; */
+	background-color:white;
+	border-radius:20px;
+	margin-top:2rem;
+	padding-top:2rem;
+	padding-bottom:2rem;
+	line-height:2;
+	border:3px solid white; 
+	box-shadow:;
+}
+.ser:hover{
+	border-bottom:3px solid  #eb5d1e;
+}
+.ser iconify-icon{
+	font-size:3rem;
+	color:#eb5d1e;
+
+}
+.ser h5{
+	cursor:pointer;
+}
+/* page 3 finished */
+.page4 {
+	padding-top:2rem;
+	padding-bottom:5rem;
+	
+}
+.app{
+	 text-align:center;
+	 margin-top:3rem; 
+}
+.app a{
+	text-decoration:none;
+	padding:1rem;
+	 padding-top:3rem;  
+    color:black;
+	font-weight:600;
+	font-size:1.2rem;
+}
+.app a:hover{
+	color:orange;
+}
+.folio img{
+	width:100%;
+	/* margin-top:2rem; */
+	border-radius:1rem;
+}
+.web1{
+	width:100%;
+	margin-top:2rem; 
+	position:relative;
+}
+.porweb{
+	position:absolute;
+	top:0;
+	width:100%;
+	left:0;
+	right:0;
+	bottom:0;
+	opacity:0;
+	text-align:center;
+	background-color:#0000009e;
+	
+	
+}
+.web1{
+	position:relative;
+	
+}
+.web1:hover .porweb{
+	opacity:1;
+	transition:1s ease;
+	border-radius:1rem;
+}
+.porweb h1{
+	font-size:20px;
+	color:white;
+	margin-top:1rem;
+}
+.porweb h5{
+	font-size:20px;
+	color:white;
+	line-height:1.5;
+}
+.porweb iconify-icon{
+	font-size:30px;
+	color:orange;
+	/* border:1px solid black; */
+	border-radius:50%;
+	margin-top:7rem;
+	background-color:white;
+	 padding:.1rem; 
+}
+.porweb iconify-icon:hover{
+	background-color:orange;
+	color:white;
+	
+}
+/* page 4 finished */
+.page5{
+	background-color:#FEF8F5;
+	padding-top:2rem;
+	padding-bottom:3rem;
+}
+/* page 5th finished */
+.page6{
+	width:100%;
+	padding-top:2rem;
+	padding-bottom:5rem;
+}
+.teams{
+	width:100%;
+}
+.timg{
+	width:100%;
+	margin-top:3rem;
+}
+.timg img{
+	width:100%;	
+}
+.teaminfo{
+	width:100%;
+}
+/* page 6th finished */
+.page7{ 
+	background-color:#FEF8F5;
+	padding-top:2rem;
+	padding-bottom:5rem;
+}
+.clitent{
+	width:100%;
+	margin-top:2rem;
+}
+.client img{
+	width:100%;
+}
+/* 7 th page finished */
+.page8{
+	padding-top:2rem;
+	padding-bottom:5rem;
+}
+.info{
+	width:100%;
+	margin-top:2rem;
+	border-top:3px solid #eb5d1e;
+	border-bottom:3px solid #eb5d1e;
+	padding:1rem;
+	padding-bottom:3rem;    
+	box-shadow: 0 0 24px 0 rgb(0 0 0 / 12%);
+	
+	
+}
+.info iconify-icon{
+	color:#eb5d1e;
+	font-size:1.5rem;
+	height:45px;
+	width:45px;
+	background-color:#fdf1ec;
+	border-radius:50%;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	float:left;
+	
+}
+.info iconify-icon:hover{
+	background-color:orange;
+	color:white;
+}
+.info h4{
+	font-size:25px;
+	font-weight:500;
+	color:#7a6960;
+	padding:0 0 0 65px;
+	margin-bottom:5px;
+}
+.info p{
+	font-size:14px;
+	padding:0 0 0 65px;
+	color:#ab9d95;
+}
+.map{
+	width:100%;
+}
+.map iframe{
+	width:100%;
+}
+.fname form-group{
+	padding-bottom:8px;	
+	
+}
+.fname input{
+	height:50px;
+}
+.fname textarea{
+	width:100%;
+	border:1px solid #ced4da;
+}
+/* .fname textarea:hover{
+	width:100%;
+	border:1px solid skyblue;
+} */
+.formbut button{
+	background-color:#eb5d1e;
+	padding:.5rem;
+	font-size:1.2rem;
+	color:white;
+}
+.formbut button:hover{
+	background-color:orange;
+	color:white;
+}
+/* 8th page finished */
+.join{
+	padding-top:2rem;
+	padding-bottom:5rem;
+	background-color:#FEF8F5;
+	text-align:center;
+}
+.join h3{
+	line-height: 1;
+    font-weight: 600;
+    color: #4e4039;
+	margin-top:2rem;
+}
+.join input{
+	padding:.7rem;
+}
+.join button{
+	background-color:#eb5d1e;
+	color:white;
+	padding:.7rem;	
+}
+/* 9th page finished */
+.page10{
+	padding-top:2rem;
+	padding-bottom:5rem;
+}
+.nine p{
+	font-size:14px;
+	
+}
