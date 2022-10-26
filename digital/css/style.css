@@ -1,4 +1,4 @@
-.top button{
+.get{
 	background-color:#eb5d1e;
 	color:white;
 	border-radius:2rem;
@@ -275,13 +275,9 @@
 	width:100%;
 	border:1px solid #ced4da;
 }
-/* .fname textarea:hover{
-	width:100%;
-	border:1px solid skyblue;
-} */
 .formbut button{
 	background-color:#eb5d1e;
-	padding:.5rem;
+	padding:10px 25px;
 	font-size:1.2rem;
 	color:white;
 }
@@ -290,10 +286,13 @@
 	color:white;
 }
 /* 8th page finished */
-.join{
+.page9{
 	padding-top:2rem;
 	padding-bottom:5rem;
 	background-color:#FEF8F5;
+}
+.join{
+
 	text-align:center;
 }
 .join h3{
@@ -303,19 +302,102 @@
 	margin-top:2rem;
 }
 .join input{
-	padding:.7rem;
+	height:40px;
+	width:40%;
 }
-.join button{
+.join a{
 	background-color:#eb5d1e;
 	color:white;
-	padding:.7rem;	
+	text-decoration:none;
+	padding:10px 20px;
+
 }
 /* 9th page finished */
 .page10{
 	padding-top:2rem;
-	padding-bottom:5rem;
+	padding-bottom:2rem;
 }
 .nine p{
 	font-size:14px;
+	color:#5c5c5c;
 	
+}
+.emails {
+	margin-top:2rem;
+}
+.emails p{
+	font-size:14px;
+	color:#5c5c5c;
+}
+.use h3{
+	font-size:1.2rem;
+	font-weight:700;
+	/* margin-top:2rem; */
+}
+.use ul{
+	list-style:none;
+	padding:0px;
+	
+}
+.use li a{
+	text-decoration:none;
+	font-size:14px;
+	line-height:2.5;
+	color:black;
+	
+}
+.use iconify-icon{
+	font-size:1rem;
+	color:#f39e7a;
+}
+.net h3{
+	font-size:1rem;
+	color:#212529;
+	font-weight:700;
+}
+.net p{
+	font-size:14px;
+	color:#212529;
+}
+
+.twitter{
+	width:100%; 
+	align-items:center;
+	display:flex;
+	/* justify-content:space-between; */
+}	
+.twit{
+	
+	
+}
+.twit iconify-icon{
+	font-size:1rem;
+	background-color:#ec692e;	
+	color:white;
+	height:35px;
+	width:35px;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	margin-left:10px;
+	border-radius:50%;
+	cursor:pointer;
+}
+.twit iconify-icon:hover{
+	background-color:orange;
+}
+.copy{
+	background-color:#FEF8F5;
+	padding-top:2rem;
+	padding-bottom:2rem;
+}
+.copyright{
+	justify-content:space-between;
+}
+.right a{
+	color:orange;
+	text-decoration:none;
+}
+.paras{
+	float:right;
 }
