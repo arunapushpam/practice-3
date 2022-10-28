@@ -4,6 +4,13 @@
 	border-radius:2rem;
 	border:none;
 }
+.navbar-brand{
+	color:#7e6d64;
+	font-size:2rem;
+}
+.nav-item{
+	font-size:1rem;
+}
 /* nav finished */
 .page1{
 	background-color:#FEF8F5;
@@ -61,7 +68,8 @@
 	color:#c2b7b1;
 	text-align:center;
 }
-.service h1{
+
+	.service h1{
 	font-size:2rem;
 	color:#212529;
 	font-weight:700;
@@ -70,11 +78,46 @@
 .service h1::after{
 	content:"";
 	width:20%;
-	height:.5vh;
+	height:.7vh;
 	margin:auto;
 	margin-top:1rem;
 	background-color:#eb5d1e;
 	display:block;
+}
+
+@media(min-width:768px){
+	.service h1{
+	font-size:2rem;
+	color:#212529;
+	font-weight:700;
+	text-align:center;
+}
+.service h1::after{
+	content:"";
+	width:12%;
+	height:.7vh;
+	margin:auto;
+	margin-top:1rem;
+	background-color:#eb5d1e;
+	display:block;
+}
+}
+@media(min-width:1024px){
+	.service h1{
+	font-size:2rem;
+	color:#212529;
+	font-weight:700;
+	text-align:center;
+}
+.service h1::after{
+	content:"";
+	width:10%;
+	height:.3vh;
+	margin:auto;
+	margin-top:1rem;
+	background-color:#eb5d1e;
+	display:block;
+}
 }
 .ser{
 	/* padding:2rem; */
@@ -146,6 +189,21 @@
 	position:relative;
 	
 }
+.web1::before{
+	content:"";
+	position:absolute;
+	width:0%;
+	background:#8d808080;
+	top:0;
+	right:0;
+	transition:all 0.4s;
+	color:white;
+}
+.web1 :hover ::before{
+	width:100%;
+	bottom:0;
+}
+	
 .web1:hover .porweb{
 	opacity:1;
 	transition:1s ease;
@@ -177,10 +235,22 @@
 }
 /* page 4 finished */
 .page5{
-	background-color:#FEF8F5;
+	
 	padding-top:2rem;
 	padding-bottom:3rem;
+	background-color:#FEF8F5;
 }
+
+.accordion-item{
+	background-color:#FEF8F5;
+}
+.accordion-button{
+	background-color:#FEF8F5;!important;
+}
+.accordion-button:hover{
+	color:#c54811;
+}
+
 /* page 5th finished */
 .page6{
 	width:100%;
@@ -190,9 +260,15 @@
 .teams{
 	width:100%;
 }
+
+@media(min-width:375px){
+	.teams{
+	width:100%;
+}
 .timg{
 	width:100%;
-	margin-top:3rem;
+	margin-top:2rem;
+	position:relative;
 }
 .timg img{
 	width:100%;	
@@ -200,8 +276,115 @@
 .teaminfo{
 	width:100%;
 }
+.face{
+	width:40px;
+	position:absolute;
+	top:0;
+	right:0;
+	bottom:0;
+	left:0; 
+	z-index:1;
+	opacity:0;
+	background-color:#0000006e;
+} 
+.face iconify-icon{
+	font-size:20px;
+	color:white;
+	padding:12px 12px;
+}
+.face iconify-icon:hover{
+	color:#ef7f4d;
+	
+}
+.timg:hover .face{
+	opacity:1;
+	transition:1s ease;
+}
+.walter{
+	position:absolute;
+	top:0;
+	right:0;
+	bottom:0;
+	left:0; 
+	opacity:0;
+	text-align:center;
+	padding-top:250px; 
+	background-color:#0000006e;
+} 
+.timg:hover .walter{
+	opacity:1;
+	transition:1s ease;
+}
+.walter h5{
+	font-size:20px;
+	color:white;
+	font-weight:700;
+}
+.walter p{
+	color:white;
+}
+}
+@media(min-width:1024px){
+	.timg{
+		width:100%;
+		margin-top:2rem;
+		position:relative;
+	}
+	.timg img{
+		width:100%;	
+	}
+	.teaminfo{
+		width:100%;
+	}
+	.face{
+		width:40px;
+		position:absolute;
+		top:0;
+		right:0;
+		bottom:0;
+		left:0; 
+		z-index:1;
+		opacity:0;
+		background-color:#0000006e;
+	}
+} 
+.face iconify-icon{
+	
+	color:white;
+	padding:10px 10px;
+}
+.timg:hover .face{
+	opacity:1;
+	transition:1s ease;
+}
+.walter{
+	position:absolute;
+	top:0;
+	right:0;
+	bottom:0;
+	left:0; 
+	opacity:0;
+	text-align:center;
+	padding-top:150px !important; 
+	background-color:#0000006e;
+} 
+.timg:hover .walter{
+	opacity:1;
+	transition:1s ease;
+}
+.walter h5{
+	font-size:16px;
+	color:white;
+	font-weight:700;
+}
+.walter p{
+	color:white;
+}
+
+}
 /* page 6th finished */
-.page7{ 
+.page7{
+	width:100%;
 	background-color:#FEF8F5;
 	padding-top:2rem;
 	padding-bottom:5rem;
@@ -211,7 +394,7 @@
 	margin-top:2rem;
 }
 .client img{
-	width:100%;
+	width:50%;
 }
 /* 7 th page finished */
 .page8{
@@ -285,6 +468,7 @@
 	background-color:orange;
 	color:white;
 }
+
 /* 8th page finished */
 .page9{
 	padding-top:2rem;
@@ -337,7 +521,6 @@
 .use ul{
 	list-style:none;
 	padding:0px;
-	
 }
 .use li a{
 	text-decoration:none;
@@ -394,10 +577,20 @@
 .copyright{
 	justify-content:space-between;
 }
-.right a{
-	color:orange;
+.design a{
 	text-decoration:none;
+	color:#eb5d1e;
 }
-.paras{
-	float:right;
+@media(min-width:375px){
+	.copyright{
+	display:block;
+	text-align:center;
+	}
 }
+@media(min-width:768px){
+	.copyright{
+	display:flex;
+	justify-content:space-between;
+	}
+}
+	
