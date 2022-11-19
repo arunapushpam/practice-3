@@ -21,8 +21,6 @@ body{
 	background-attachment:fixed;
 	background-size:cover;
 	border:1px solid black;
-	
-	
 }
 .phone{
 	width:31%;
@@ -605,48 +603,105 @@ body{
 	margin-top:30px;
 }
 .address{
-	width:100%;
+	padding-top:2rem;
+	padding-bottom:2rem;
+	border-bottom:1px solid #bab3a6;
 	background-color:#0C0B09;
 }
-.location{
-	width:100%;
-	display:flex;
-	justify-content:space-between;
-	border:1px solid black;
-}
-.location1{
-	width:40%;
-	border:1px solid blue;
-}
 .open{
-	width:100%;
 	display:flex;
-	justify-content:space-between;
-	margin-top:30px;
-}
-.opens{
-	width:10%;
+	margin-top:2rem;
+	
 }
 .opens iconify-icon{
-
-	font-size:25px;
+	font-size:1.3rem;
 	padding:10px;
 	background-color:#cda45e;
     border:1px solid #cda45e;
 	border-radius:50%;
 	color:white;
+	/* font-size:2rem; */
 }
 .opens1{
-	width:88%;
+	margin-left:10px;
 }
 .opens1 h3{
+	font-size:1rem;
 	color:white;
 }
 .opens1 p{
-	color:#bab3a6;
+	margin-top:10px;
+	color:#bab3a6
 }
-.subject{
-	width:59%;
-	height:50vh;
-	border:1px solid blue;
+.location{
+	display:flex;
+}
+.forms{
+	width:100%;
+	margin:auto;
+	padding-top:5rem;
+}
+.for{
+	display:flex;
+	width:100%;
+}
+.form{
+	width:100%;
+	margin-top:3rem;
+	padding-bottom:2rem;
+	margin:auto;
+	box-shadow: 0 0 15px rgb(0 0 0 /10%);
+}
+	
+.form1{
+	width: 100%;
+    padding:15px;
+
+}
+.form1 input{
+	width:100%;
+	height:45px;
+	border:1px solid #ccc;
+	box-shadow: none;
+	font-size:1.2rem;
+}
+
+
+.area{
+	width:100%;
+	padding:15px;
+	margin-top:0px;
+}
+.area textarea{
+	width:100%;
+    color: white;
+	border:1px solid #ccc;
+	font-size:1.2rem;
+	font-family: 'Raleway', sans-serif;
+}
+
+.form2 {
+	width:100%;
+	
+	padding:15px;
+}
+.form2 input{
+	width:100%;
+	height:45px;
+	background-color:black;
+	font-size:1.2rem;
+	border:1px solid #ccc;
+	box-shadow: none;
+}
+.forms2{
+		margin:auto;
+		display:flex;
+		align-items:center;
+		justify-content:center;
+		margin-top:20px;
+
+}
+.forms2 a{
+	text-decoration:none;
+	padding:1rem;
 }
