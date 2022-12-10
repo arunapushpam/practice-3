@@ -26,21 +26,51 @@ box-sizing:border-box;
 	right:0;
 } 
 .page1{
-	 background: linear-gradient(#8525E9,#F074F1,#E925E7);
+	position:relative;
+	background-color:white;
 	padding-bottom:2rem;
-}
-
-.name{
-	height:50vh;
-	padding-top:7rem;
+	overflow:hidden;
 	
-	margin:auto; 
+}
+/* .page1::before{ */
+	/* content:""; */
+	/* position:absolute; */
+	/* top:0; */
+	/* left:0; */
+	/* width:100%; */
+	/* height:100%; */
+	/* border-radius:0 0 50% 50%/0 0 100% 100%; */
+	/* background:linear-gradient(45deg, #ff0081,#6827b0); */
+	/* transform:scalex(1.5); */
+	
+/* } */
+
+.pages{
+	height:80vh;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	text-align:center;
+	margin:auto;	
+}
+/* .image img{ */
+	/* width:70%; */
+	/* height:90vh; */
+	/* margin-top:3rem;  */
+	/* border-radius:00px 230px 0px 200px; */
+/* } */
+.name{
+	position:relative;
+	z-index:1;
+	margin:auto;
+	max-width:900px;
 	text-align:center;
 	
 }
-
 .name h1{
-	color:white;
+	
+	color:#D7007A;;
+	/* margin-top:5rem; */
 	font-weight:600;
 }
 .name h1:hover{
@@ -48,20 +78,50 @@ box-sizing:border-box;
 }
 .name p{
 	font-size:2rem;
-	 color:white; 
+	 color:#D7007A;; 
 	font-weight:600;
 }
 .name p:hover{
 	color:black;
 }
-.name iconify-icon{
-	font-size:2rem;
+/* .name iconify-icon{ */
+	/* font-size:2rem; */
+	/* display:flex; */
+	/* justify-content:center; */
+	/* cursor:pointer; */
+/* } */
+/* .name iconify-icon:hover{ */
+	/* color:white; */
+/* } */
+.icons{
+	
+	/* color:#428bca; */
+	position:relative;
+	height:70px;
+	width:70px;
 	display:flex;
+	z-index:1;
+	min-width:900px;
 	justify-content:center;
+	align-items:center;
+	margin:auto;
 	cursor:pointer;
+	border-radius:50%;
+	
+	
 }
-.name iconify-icon:hover{
-	color:white;
+.icons iconify-icon{
+	font-size:2.5rem;
+	color:#D7007A;
+	margin-left:1rem;
+}
+.icons iconify-icon:hover{
+	color:black;
+}
+.wave{
+	position:absolute;
+	bottom:0;
+	left:0;
 }
 
 	/* first page finished */
@@ -72,13 +132,13 @@ box-sizing:border-box;
 .about{
 	text-align:center;
 	color:#F03DC8;
-	text-shadow: -10px -30px 4px #F03DC8;
 }
 .photo img{
 	width:100%;
 	border-radius:10%;
 	border-left:13px solid #D7007A;
 	border-bottom:13px solid #D7007A;
+	background-color:#efa8a852;
 }
 .details{
 	/* background-color:#11f6e8; */
@@ -123,9 +183,11 @@ box-sizing:border-box;
 	padding-top:3rem;
 	padding-bottom:3rem;
 	
+	
 }
+
 .resume h1{
-	font-size:1.5rem;
+	font-size:1rem;
 	text-align:center;
 	margin:auto;
 	border-radius:10%;
@@ -165,7 +227,12 @@ box-sizing:border-box;
 	.resume{
 		width:48%;
 	}
+	.resume h1{
+	font-size:1rem;
+	
+	}
 }
+
 
 /* page 4 finished */
 .page5{
@@ -195,43 +262,110 @@ box-sizing:border-box;
 	 color:white;
 	 padding:1rem;
  }
+ .tools{
+	 
+ }
+ .tools h1{
+	 margin-top:2rem;
+	 color:#D7007A;
+	 text-align:center;
+	
+ }
+ .tools span{
+	 font-size:1.2rem;
+	 font-weight:700;
+ }
+ .tools p{
+	 font-size:1.2rem;
+ }
+ 
  /* 5th page finished */
 .page6{
 	padding-top:2rem;
 	padding-bottom:3rem;
-	background-color:#E925E7;
-	border-bottom:1px solid #E925E7;
+	background-color:#837b7bb0;
+	border-bottom:1px solid #837b7bb0;
 }
 .page6 h1{
 	text-align:center;
 	color:white;
 }
-  
-.footer {
+@media (min-width:768px){
+	.address{
+		display:flex;
+		width:100%;
+		justify-content:space-between;
+		align-items:center;
+		margin:auto;
+		text-align:center;
+	}
+}
+.mails{
+	
+	/* color:#428bca; */
+	height:70px;
+	width:70px;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	margin:auto;
+	border-radius:50%;
+	margin-top:2rem;
+	border:3px dotted white;
+	
+	
+}
+.mails iconify-icon{
+	font-size:2.5rem;
+}
+.mails:hover{
+	
+	/* color:#428bca; */
+	height:70px;
+	width:70px;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	margin:auto;
+	border-radius:50%;
+	
+	border:3px dotted black;
+	
+}
+.mails iconify-icon:hover{
+	color:white;
+	border-radius:50%
+}
+.add h3{
+	color:white;
+	text-align:center;
+	margin-top:1rem;
+}
+.add p{
 	text-align:center;
 }
-.footer a{
-	color:white;
+.add{
+	text-align:center;
+}
+	
+.add a{
 	text-decoration:none;
-}
-.footer h4{
+	text-align:center; 
 	color:white;
-}
-.footer p{
-	color:white;
-}
-.footer iconify-icon{
-	padding:0.5rem;
-	font-size:1.5rem;
-	color:white;
-	cursor:pointer;
-}
+	text-align:center;
+	background-color:black;
+	border-radius:1rem;
+	padding:.5rem;
+	 margin-top:2rem; 
+} 
+
+
 /* 6th page finished */
 .page7{
-	padding-top:3rem;
-	padding-bottom:3rem;
+	padding-top:2rem;
+	/* padding-bottom:2rem; */
 	text-align:center;
-	background-color:#dd27dced ;#ef08ed91;
+	background-color:#6a5f5fb0;
 }
 .page7 h3{
 	color:white;
