@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+        <script>
+			var mark=prompt("enter mark")
+			if (mark>80){
+				console.log("A");
+			}
+			else if (mark>60&&mark<=80){
+				console.log("B");
+			}
+			else if (mark>50&&mark<=60){
+				console.log("C");
+			}
+			else if (mark>45&&mark<=50){
+				console.log("D");
+			}
+			else if (mark>25&&mark<=45){
+				console.log("E");
+			}
+			else {
+				console.log("F");
+			}
+			
+			//switch
+			<!-- below 25-f, 25 to 45-E, 45to50-D, -->
+			<!-- 50-60 C,60-80-B, above 80-A; -->
+		var mark=prompt("enter mark");
+			switch (true){
+				case (mark>80)	:
+					console.log("A");
+					break;
+				case (mark>60&&mark<=80)	:
+					console.log("B");
+					break;
+				case (mark>50&&mark<=60)	:
+					console.log("c");
+					break;
+				case (mark>45&&mark<=50)	:
+					console.log("D");
+					break;
+				case (mark>25&&mark<=45)	:
+					console.log("E");
+					break;
+				default:
+					console.log("F");
+			}
+			
+			var age1=prompt("enter age1");
+			var age2=prompt("enter age2");
+			var age3=prompt("enter age3");
+			
+			if (age1>age2 && age1>age3){
+				console.log("age1 is older");
+				if(age2<age3){
+					console.log("age 2 is younger");
+				}
+				else{
+					console.log("age 3 is younger");
+				}
+			}
+			else if(age2>age1 && age2>age3){
+				console.log("age 2 is older");
+				if (age1<age3){
+					console.log("age1 is younger");	
+				}
+				else{
+					console.log("age3 is younger")
+				}
+			}
+			else{
+				console.log("age3 is older");
+				}
+			if (age1<age2){
+				console.log("age1 is younger ")
+			}
+			else{
+				console.log("age 2 is younger")
+				}
+   
+		</script>
+</body>
+</html>
