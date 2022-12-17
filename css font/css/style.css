@@ -1,0 +1,127 @@
+.S1{
+			font-family:"Times New Roman", Times, serif;
+			}
+		.s2{
+			font-family:Arial, Helvetica, sans-serif;
+			}
+		.s3{
+			font-family:"Lucida Console", "Courier New", monospace;
+			}
+		.c  {
+			color:hsl(285, 100%, 60%)
+			}
+		.c1  {
+			background-color:rgb(0, 255, 0,1) ;
+			}
+		.center {
+			text-align:center;
+			}
+		.center1 {
+			text-align:right;
+			}
+		.center2 {
+			text-align:left;
+			}
+		
+		.center3{ 
+			text-align:justify;
+			width:30%;
+			border:1px solid black;
+			
+			}
+		.last{
+			text-align-last: right;
+			}
+		.last1{
+			text-align-last: center;
+			}
+		.last2{
+			text-align-last: justify;
+			}
+		.last3{
+			text-align-last: left;
+			}
+		.d1{
+			direction: rtl;
+			unicode-bidi: bidi-override;
+			}
+		.as span{
+			vertical-align: baseline;
+			 }
+		 .asa i{
+			vertical-align:text-top;
+			}
+		 .as2 i{
+			vertical-align:text-bottom;
+			}
+		 .as3 i {
+		    vertical-align:sub;
+			}
+		 .as4 i{
+			vertical-align:super;
+			}
+	     .o{
+			text-decoration: overline;
+			}
+		 .o1{
+			text-decoration: line-through;
+			}
+		 .o2{
+			  text-decoration: underline;
+			}
+		 .o3{
+			text-decoration: overline underline;
+			}
+		  .oa{
+			text-decoration: overline;
+			text-decoration-color:yellow;
+			}
+		  .ob{
+			text-decoration: line-through;
+			text-decoration-color:blue;
+			}
+		  .oc{
+			  text-decoration: underline;
+			  text-decoration-color:green;
+			}
+		  .od{
+			text-decoration: overline underline;
+			text-decoration-color:red;
+			}
+		  .d{
+			text-decoration-line:  underline;
+			text-decoration-style: solid;
+			}
+		   .d2{
+			text-decoration-line:  underline;
+			text-decoration-style: double; 
+			}
+		   .d3{
+			text-decoration-line:  underline;
+			text-decoration-style: dotted; 
+			}
+			.d4{
+			text-decoration-line:  underline;
+			text-decoration-style: dashed; 
+			}
+			.d5{
+			text-decoration-line:  underline;
+			text-decoration-style: wavy; 
+			}
+			.he{
+			text-decoration-line: underline;
+			text-decoration-color: red;  
+			text-decoration-style: double;
+			font-size:35px;
+			font-weight:500;
+			}
+			.size{
+			font-size:35px;
+			font-weight:700
+			}
+			.normal{
+			 font-variant:normal;
+			}
+			.caps{
+				font-variant:small-caps;
+			}
