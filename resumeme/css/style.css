@@ -44,14 +44,37 @@ box-sizing:border-box;
 	/* transform:scalex(1.5); */
 	
 /* } */
-
-.pages{
-	height:80vh;
-	display:flex;
-	justify-content:center;
-	align-items:center;
-	text-align:center;
-	margin:auto;	
+@media(min-width:320px){
+	.pages{
+		padding-top:3rem;
+		display:flex;
+		justify-content:center;
+		align-items:center;
+		text-align:center;
+		margin:auto;
+		padding-bottom:3rem;		
+	}
+}
+@media(min-width:768px){
+	.pages{
+		padding-top:3rem;
+		display:flex;
+		justify-content:center;
+		align-items:center;
+		text-align:center;
+		margin:auto;
+		padding-bottom:5rem;		
+	}
+}@media(min-width:1024px){
+	.pages{
+		padding-top:3rem;
+		display:flex;
+		justify-content:center;
+		align-items:center;
+		text-align:center;
+		margin:auto;
+		padding-bottom:9rem;		
+	}
 }
 /* .image img{ */
 	/* width:70%; */
@@ -138,14 +161,16 @@ box-sizing:border-box;
 	border-radius:10%;
 	border-left:13px solid #D7007A;
 	border-bottom:13px solid #D7007A;
-	background-color:#efa8a852;
+	background-color:#f5debe33;
 }
 .details{
 	/* background-color:#11f6e8; */
 	margin-top:3rem;
 	border-radius:10%;
-	background-color:#efa8a852;
-	box-shadow:0 5px 15px rgb(0 0 0/10%);
+	background-color:#f5debe33;
+	border-right:13px solid #D7007A;
+	border-bottom:13px solid #D7007A;
+	/* box-shadow:0 5px 15px rgb(0 0 0/10%); */
 }
 .details iconify-icon{
 	font-size:1.5rem;
@@ -283,8 +308,8 @@ box-sizing:border-box;
 .page6{
 	padding-top:2rem;
 	padding-bottom:3rem;
-	background-color:#837b7bb0;
-	border-bottom:1px solid #837b7bb0;
+	background-color:#d7007a8a;
+	border-bottom:1px solid #D7007A;
 }
 .page6 h1{
 	text-align:center;
@@ -318,20 +343,20 @@ box-sizing:border-box;
 .mails iconify-icon{
 	font-size:2.5rem;
 }
-.mails:hover{
+/* .mails:hover{ */
 	
 	/* color:#428bca; */
-	height:70px;
-	width:70px;
-	display:flex;
-	justify-content:center;
-	align-items:center;
-	margin:auto;
-	border-radius:50%;
+	/* height:70px; */
+	/* width:70px; */
+	/* display:flex; */
+	/* justify-content:center; */
+	/* align-items:center; */
+	/* margin:auto; */
+	/* border-radius:50%; */
 	
-	border:3px dotted black;
+	/* border:3px dotted black; */
 	
-}
+/* } */
 .mails iconify-icon:hover{
 	color:white;
 	border-radius:50%
@@ -343,20 +368,25 @@ box-sizing:border-box;
 }
 .add p{
 	text-align:center;
+	font-size:1.3rem;
 }
 .add{
 	text-align:center;
 }
-	
-.add a{
+.mail{
+	 margin-top:1.2rem;
+	 /* padding:1rem; */
+}	
+.mail a{
 	text-decoration:none;
 	text-align:center; 
 	color:white;
+	font-size:20px;
 	text-align:center;
 	background-color:black;
-	border-radius:1rem;
+	border-radius:.5rem;
 	padding:.5rem;
-	 margin-top:2rem; 
+	 
 } 
 
 
@@ -365,7 +395,7 @@ box-sizing:border-box;
 	padding-top:2rem;
 	/* padding-bottom:2rem; */
 	text-align:center;
-	background-color:#6a5f5fb0;
+	background-color:#D7007A;
 }
 .page7 h3{
 	color:white;
