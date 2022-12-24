@@ -1,0 +1,62 @@
+<html>
+<head>
+<title>form</title>
+<link rel="stylesheet" href="css/style.css">
+<style>
+ label{
+width:100px;
+display:inline-block;
+}
+</style>
+</head>
+<body>
+		<form>
+			<fieldset>
+				<legend>APPLICATION FORM</legend>
+					<label for="User Name">User Name</label>
+					<input type="text" placeholder="Enter Your Name" id="User Name" required><br>
+					<label for="password">Possword</label>
+					<input type="password" placeholder="Enter Your password"><br>
+					<label for="Dod">Date Of birth</label>
+					<input type="date">
+					<label for="age">Age</label>
+					<input type="number">
+					<input type="time"><br>
+					<label>Gender:</label>
+					<label for="Gender"></label>Male<input type="radio" name="Gender">
+					<label for="Gender"></label>Female<input type="radio" name="Gender"><br>
+					<label for="Email">Email</label>
+					<input type="text" placeholder="Enteer Your Email"><br>
+					<label>Languages:</label>
+					<label for="Html"></label>Html<input type="checkbox" id="html"  value="Languages">
+					<label for="css"></label>Css<input type="checkbox"  id="css" value="Languages">
+					<label for="javascript"></label>Java Script<input type="checkbox" name="Languages"><br>
+					<label for="department">Department</label><br>
+					<select name="department">
+						<optgroup label="select department">
+							<option value="ECE" id="ECE">ECE</option>
+							<option value="EEE" id="EEE">EDD</option>
+							<option value="IT" id="IT">IT</option>
+							<option value="CSC" id="CSC">CSC</option>
+						</optgroup>
+					</select><br>
+					<label for="resume">upload Resume</label>
+					<input type="file"><br>
+					<textarea rows="3" cols="13"></textarea><br>
+					<label for="datalist">datalist</label>
+					<input list="language">
+					<datalist id="language">
+						<option value="tamil">
+						<option value="English">
+						<option value="malayalam">
+						<option value="hindi">
+						<option value="kanadam">
+					</datalist><br>
+					<label for="serch">Search</label>
+					<input type="Search" placeholder="search"/> 					
+					<input type="submit"><input type="reset">
+					
+			</fieldset>
+			
+		</form>
+</body>
