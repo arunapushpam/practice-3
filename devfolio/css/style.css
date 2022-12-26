@@ -1,0 +1,105 @@
+*
+{
+margin:0;
+padding:0;
+box-sizing:border-box;	
+}
+.container{
+	width:90%;
+	margin:auto;
+}
+.bg{
+	background-image:url("background img.jpg");
+	height:100vh;
+	width:100%;
+	background-size:cover;
+	background-position:center;
+	background-attachment:fixed;
+}
+ .header{
+	width:100%;
+	display:flex;
+	padding-top:2rem;
+	padding-bottom:2rem;
+	align-items:center;
+	justify-content:space-between;
+} 
+.heading h2{
+	font-size:2rem;
+	letter-spacing:1;
+	color:white;
+	cursor:pointer;
+}
+.topnav ul{
+	display:none;
+}
+
+ .topnav{
+	 
+ }
+.topnav iconify-icon{
+	float:right;
+	font-size:2rem;
+	color:white;
+}
+.developer{
+	text-align:center;
+	margin-top:10%;
+}
+.developer h1{
+	color:white;
+	font-size:5rem;
+	line-height:1.5;
+	font-weight:600;
+}
+.developer p{
+	font-size:3rem;
+	font-weight:600;
+	margin-top:20px;
+	color:white;
+}
+
+@media(min-width:768px){
+	.developer{
+		margin-top:3%;
+	}
+	.developer h1{
+	color:white;
+	font-size:5.7rem;
+	line-height:1.5;
+	font-weight:600;
+	}
+.developer p{
+	font-size:3rem;
+	font-weight:600;
+	margin-top:20px;
+	color:white;
+	}
+}
+@media(min-width:1024px){
+	
+	.topnav ul{
+	display:flex;
+	float:right
+	}
+.topnav li a{
+	text-decoration:none;
+	color:white;
+}
+
+	.developer{
+		margin-top:3%;
+	}
+	.developer h1{
+	color:white;
+	font-size:4rem;
+	line-height:1.5;
+	font-weight:600;
+	}
+.developer p{
+	font-size:3rem;
+	font-weight:600;
+	margin-top:20px;
+	color:white;
+	}
+}
