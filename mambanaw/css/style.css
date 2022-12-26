@@ -976,14 +976,14 @@ body{
 	color:skyblue;
 	border:1px solid black;
 	border-radius:50%;
-	
+	cursor:pointer;
 	background-color:white;
 	padding:.1rem;
 }
 .porweb iconify-icon:hover{
 	background-color:skyblue;
 	color:white;
-	
+	cursor:pointer;
 }
 
 
@@ -1115,13 +1115,13 @@ body{
 	color:skyblue;
 	border:1px solid black;
 	border-radius:50%;
-	
 	background-color:white;
 	padding:.1rem;
 }
 .porweb iconify-icon:hover{
 	background-color:skyblue;
 	color:white;
+
 	
 }
 
@@ -1150,32 +1150,33 @@ body{
 	background-color:white;
 	}
 }
-	@media(min-width:375px){
+/* finished */
+.teams{
+	 padding-top:3rem;
+	 padding-bottom:3rem;
+ }
+ @media(min-width:375px){ 
 .team{
-    padding:5rem;
-}
-
-.team-row{
     display: flex;
     flex-wrap: wrap;
      gap: 3.5rem; 
 }
-.team-member1{
+.member1{
     width:100%; 
     position: relative;  	
 }
 .flow{
 	overflow:hidden;
 }
-.team-member1 img{
+.member1 img{
     width:100%;
 	transition:all 0.5s ease;
 }
-.team-member1 img:hover{
+.member1 img:hover{
 	transform:scale(1.1);
 	
 }
-.member-content{
+.member{
     position:absolute;
     background-color:#839eb5d6;
     padding: 1rem ;
@@ -1185,7 +1186,7 @@ body{
     right: 20px;
     left: 20px;
 }
-.member-content h4 {
+.member h4 {
     font-weight: 700;
     margin-bottom: 1rem;
     font-size: 1.1rem;
@@ -1193,7 +1194,7 @@ body{
     position: relative;
     text-align: center;
 }
-.member-content h4::after{
+.member h4::after{
     content: "";
     position: absolute;
     width: 50px;
@@ -1202,50 +1203,34 @@ body{
     left: calc(50% - 25px);
     margin: 1.6rem 0;
 }
-.member-content span{
+.member span{
     font-style: italic;
     font-size: 0.9rem;
     color: #fff;
 }
-.team-icon{
+.teamicon{
     margin: 1rem 0;
 }
-.team-icon iconify-icon{
+.teamicon iconify-icon{
     color: #eee;
-}
+	}
 }
 @media(min-width:768px){
 .team{
-    padding:5rem 0 ;
-}
-.team-title h2{  
-    text-align: center;
-    font-size: 2.5rem;
-    font-weight: 600;
-    margin-bottom: 2rem;
-    color: #5c768d;
-}
-.team-title p{
-    text-align: center;
-    font-size: 1.1rem;
-    margin-bottom: 3rem;
-    line-height: 1.4rem;
-    color: #444;
-}
-.team-row{
     display: flex;
     flex-wrap: wrap;
-    gap: 1.5rem;
+    gap: 1rem;
+	
 }
-.team-member1{
+.member1{
     width: 48%; 
-    position: relative;
-    margin: 2rem 0;   
+    position: relative; 
+margin-top:3rem;	
 }
-.team-member1 img{
+.member1 img{
     width: 100%;
 }
-.member-content{
+.member{
     position:absolute;
     background-color:#839eb5d6;
     padding: 1rem 0;
@@ -1255,7 +1240,7 @@ body{
     right: 20px;
     left: 20px;
 }
-.member-content h4 {
+.member h4 {
     font-weight: 700;
     margin-bottom: 1rem;
     font-size: 1.1rem;
@@ -1263,7 +1248,7 @@ body{
     position: relative;
     text-align: center;
 }
-.member-content h4::after{
+.member h4::after{
     content: "";
     position: absolute;
     width: 50px;
@@ -1272,49 +1257,32 @@ body{
     left: calc(50% - 25px);
     margin: 1.6rem 0;
 }
-.member-content span{
+.member span{
     font-style: italic;
     font-size: 0.9rem;
     color: #fff;
 }
-.team-icon{
+.teamicon{
     margin: 1rem 0;
 }
-.team-icon iconify-icon{
+.teamicon iconify-icon{
     color: #eee;
 }
 }
 @media(min-width:1024px){
 .team{
-    padding:5rem 0 ;
-}
-.team-title h2{  
-    text-align: center;
-    font-size: 2.5rem;
-    font-weight: 600;
-    margin-bottom: 2rem;
-    color: #5c768d;
-}
-.team-title p{
-    text-align: center;
-    font-size: 1.1rem;
-    margin-bottom: 3rem;
-    line-height: 1.4rem;
-    color: #444;
-}
-.team-row{
     display: flex;
     flex-wrap: wrap;
     gap: 1rem;
 }
-.team-member1{
+.member1{
     width: 23%; 
     position: relative;   
 }
-.team-member1 img{
+.member1 img{
     width: 100%;
 }
-.member-content{
+.member{
     position:absolute;
     background-color:#839eb5d6;
     padding: 1rem 0;
@@ -1324,14 +1292,14 @@ body{
     right: 20px;
     left: 20px;
 }
-.member-content h4 {
+.member h4 {
     font-weight: 700;
     margin-bottom: 1rem;
     font-size: 1.1rem;
     color: #fff;
     text-align: center;
 }
-.member-content h4::after{
+.member h4::after{
     content: "";
     width: 20%;
 	margin:auto;
@@ -1341,15 +1309,15 @@ body{
 	display:block;
     margin-top:.5rem;
 }
-.member-content span{
+.member span{
     font-style: italic;
     font-size: 0.9rem;
     color: #fff;
 }
-.team-icon{
+.teamicon{
     margin: 1rem 0;
 }
-.team-icon iconify-icon{
+.teamicon iconify-icon{
     color: #eee;
 }
 }
@@ -1760,16 +1728,28 @@ body{
 }
 .adam2{
 	width:100%; 
-	align-items:center;
+	display:flex;
+	/* justify-content:center;	 */
+	 /* align-items:center;  */
+	/* margin:auto; */
+	padding-right:10px;
+	/* padding:.5rem; */
+	text-align:center;
+	;
+	
 }	
 .adam2 iconify-icon{
-	font-size:1rem;
-	padding:1rem;
+	font-size:1.2rem;
+	/* padding:1rem; */
+	height:37px;
+	width:37px;
+	display:flex;
 	border-radius:50%;
 	align-items:center; 
 	background-color:#768fa6;	
 	justify-content:center;
 	margin-top:.5rem;
+	margin-right:5px
 }
 .adam2 iconify-icon:hover{
 	background-color:skyblue;
@@ -1934,19 +1914,22 @@ body{
 	margin-top:1rem;
 	
 }
-.adam2{
-	width:100%; 
-	align-items:center;
-}	
-.adam2 iconify-icon{
-	font-size:.8rem;
-	padding:.7rem;
-	border-radius:50%;
-	align-items:center; 
-	background-color:#768fa6;	
-	justify-content:center;
-	margin-top:.5rem;
-}
+/* .adam2{ */
+	/* width:100%; */
+	/* display:flex; */
+/* } */
+/* .adam2 iconify-icon{ */
+	/* font-size:1.5rem; */
+	/* height:50px; */
+	/* width:50px; */
+	/* border-radius:50%; */
+	/* display:flex; */
+	/* align-items:center; */
+	/* justify-content:center; */
+	/* background-color:#768fa6;	 */
+	/* margin-right:5px; */
+/* } */
+
 .adam2 iconify-icon:hover{
 	background-color:skyblue;
 }
