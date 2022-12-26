@@ -84,7 +84,7 @@ box-sizing:border-box;
 /* } */
 .name{
 	position:relative;
-	z-index:1;
+	z-index:0;
 	margin:auto;
 	max-width:900px;
 	text-align:center;
@@ -313,10 +313,14 @@ box-sizing:border-box;
 }
 .page6 h1{
 	text-align:center;
-	color:white;
+	/* color:white; */
 }
 .page6 p{
 	/* color:white; */
+}
+.address{
+	background-color:white;
+	padding:1rem;
 }
 @media (min-width:768px){
 	.address{
@@ -327,6 +331,7 @@ box-sizing:border-box;
 		margin:auto;
 		text-align:center;
 	}
+	
 }
 .mails{
 	
@@ -334,13 +339,13 @@ box-sizing:border-box;
 	height:70px;
 	width:70px;
 	display:flex;
-	color:white;
+	/* color:white; */
 	justify-content:center;
 	align-items:center;
 	margin:auto;
 	border-radius:50%;
 	margin-top:2rem;
-	border:3px dotted white;
+	border:3px dotted black;;
 	
 	
 }
@@ -361,12 +366,15 @@ box-sizing:border-box;
 	/* border:3px dotted black; */
 	
 /* } */
-.mails iconify-icon:hover{
-	color:white;
-	border-radius:50%
+/* .mails iconify-icon:hover{ */
+	/* color:white; */
+	/* border-radius:50% */
+/* } */
+.add{
+	padding:1rem;
 }
 .add h3{
-	color:white;
+	/* color:white; */
 	text-align:center;
 	margin-top:1rem;
 }
@@ -384,10 +392,10 @@ box-sizing:border-box;
 .mail a{
 	text-decoration:none;
 	text-align:center; 
-	color:black;
+	color:white;	
 	font-size:20px;
 	text-align:center;
-	background-color:white;
+	background-color:#C00C85;
 	border-radius:.5rem;
 	padding:.5rem;
 	 
@@ -408,5 +416,5 @@ box-sizing:border-box;
 	color:white;
 }
 .progress-bar{
-    background-color:#D7007A important;
+    background-color:#D7007A!important;
 }
