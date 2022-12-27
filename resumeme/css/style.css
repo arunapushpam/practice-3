@@ -9,13 +9,16 @@ box-sizing:border-box;
 	margin:auto;
 }
 .navbar-brand{
-	color:#8f00ff;
+	color:#D7007A;;
 }
 .navbar-brand:hover{
-	color:#8f00ff;
+	color:black;
+}
+.nav-link{
+	color:#D7007A!important;
 }
 .nav-link:hover{
-	color:#8f00ff!important;
+	color:black!important;
 }
   .top{
 	position:sticky;
@@ -92,7 +95,7 @@ box-sizing:border-box;
 }
 .name h1{
 	
-	color:#D7007A;;
+	color:#D7007A;
 	/* margin-top:5rem; */
 	font-weight:600;
 }
@@ -306,7 +309,7 @@ box-sizing:border-box;
  
  /* 5th page finished */
 .page6{
-	padding-top:2rem;
+	padding-top:3rem;
 	padding-bottom:3rem;
 	background-color:#D7007A;
 	border-bottom:1px solid #D7007A;
@@ -387,7 +390,7 @@ box-sizing:border-box;
 }
 .mail{
 	 margin-top:1.2rem;
-	 /* padding:1rem; */
+	 /* padding:1rem;  */
 }	
 .mail a{
 	text-decoration:none;
