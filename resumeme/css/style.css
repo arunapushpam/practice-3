@@ -148,15 +148,30 @@ box-sizing:border-box;
 }
 
 	/* first page finished */
+@media(min-width:365px){
+	.page2{
+		padding-top:1rem;
+		padding-bottom:1rem;
+	}
+	.about{
+	padding-top:1rem;
+	text-align:center;
+	color:#D7007A;
+	}
+}
+@media(min-width:768px){
 .page2{
 	padding-top:3rem;
 	padding-bottom:3rem;
 }
 .about{
 	padding-top:3rem;
-	padding-bottom:3rem;
 	text-align:center;
 	color:#D7007A;
+}
+}
+.photo{
+	padding-top:2rem;
 }
 .photo img{
 	width:100%;
@@ -166,7 +181,7 @@ box-sizing:border-box;
 	background-color:#f5debe33;
 }
 .details{
-	margin-top:3rem;
+	margin-top:2rem;
 	border-radius:10%;
 	background-color:#f5debe33;
 	border-right:13px solid #D7007A;
@@ -197,11 +212,11 @@ box-sizing:border-box;
 /* page 2 finished */
 .page3{
 	padding-top:3rem;
-	padding-bottom:3rem;
+	padding-bottom:2rem;
 	
 }
 .pro h3{
-	margin-top:3rem;
+	margin-top:2rem;
 }
 /* page 3 finished */
 .page4{
@@ -257,7 +272,7 @@ box-sizing:border-box;
 /* page 4 finished */
 .page5{
 	padding-top:3rem;
-	padding-bottom:3rem;
+	padding-bottom:2rem;
 }
 .buts{
 	text-align:center; 
@@ -298,7 +313,7 @@ box-sizing:border-box;
  /* 5th page finished */
 .page6{
 	padding-top:3rem;
-	padding-bottom:3rem;
+	padding-bottom:2rem;
 	background-color:#D7007A;
 	border-bottom:1px solid #D7007A;
 }
